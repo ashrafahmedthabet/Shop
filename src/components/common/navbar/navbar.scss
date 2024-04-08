@@ -36,7 +36,7 @@
         color: #777;
         cursor: pointer;
         .cart-icon {
-            position: relative;
+          position: relative;
           span {
             width: 20px;
             height: 20px;
@@ -44,7 +44,7 @@
             background-color: var(--blue-color);
             color: #fff;
             position: absolute;
-            top:-10px;
+            top: -10px;
             right: -10px;
             display: flex;
             align-items: center;

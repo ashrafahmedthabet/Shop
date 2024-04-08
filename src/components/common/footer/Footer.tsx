@@ -1,6 +1,5 @@
-import payment from "../../../assets/payment.png";
-import './footer.scss'
-const Footer = ():JSX.Element => {
+import "./footer.scss";
+const Footer = (): JSX.Element => {
   return (
     <div className="footer">
       <div className="wrapper">
@@ -47,12 +46,10 @@ const Footer = ():JSX.Element => {
         <div className="bottom">
           <div className="left">
             <h2 className="logo">Lamastore</h2>
-            <p className="copyright">
-              © Copyright 2024. All Rights Reserved
-            </p>
+            <p className="copyright">© Copyright 2024. All Rights Reserved</p>
           </div>
           <div className="right">
-            <img src={payment} alt="" />
+            <img src="images/payment.png" />
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import lang from "../../../assets/en.png";
 import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
@@ -12,7 +11,7 @@ const Navbar = ():JSX.Element => {
       <div className="wrapper">
         <div className="left">
           <div className="lang">
-            <img src={lang} alt="en" />
+            <img src='images/en.png' alt="en" />
             <KeyboardArrowDownIcon />
           </div>
           <div className="currency">
