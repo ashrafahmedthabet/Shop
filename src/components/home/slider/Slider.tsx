@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./slider.scss";
+import style from "./slider..module.scss";
 import WestIcon from "@mui/icons-material/West";
 import EastIcon from "@mui/icons-material/East";
 const sliderImages: string[] = [
@@ -17,21 +17,21 @@ const Slider = (): JSX.Element => {
   };
 
   return (
-    <div className="slider">
-      <div className="wrapper">
+    <div className={style.slider}>
+      <div className={style.wrapper}>
         <div
-          className="img-container"
+          className={style['img-container']}
           style={{ transform: `translateX(-${imgIndex * 100}vw)` }}
         >
           {sliderImages.map((url, index) => (
             <img key={index} src={url} />
           ))}
         </div>
-        <div className="tabs">
-          <div className="prev" onClick={prevImg}>
+        <div className={style.tabs}>
+          <div className={style.prev} onClick={prevImg}>
             <WestIcon />
           </div>
-          <div className="next" onClick={nextImg}>
+          <div className={style.next} onClick={nextImg}>
             <EastIcon />
           </div>
         </div>
