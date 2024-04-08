@@ -1,0 +1,29 @@
+.product-list {
+  padding-block: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .wrapper {
+    width: 85%;
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 30px;
+      h2 {
+        flex: 2;
+        text-transform: capitalize;
+      }
+      p {
+        flex: 3;
+        color: var(--gray-color);
+      }
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+}

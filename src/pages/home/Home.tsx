@@ -1,11 +1,14 @@
-import Slider from "../../components/common/slider/Slider"
+import ProductList from "../../components/common/productList/ProductList";
+import Slider from "../../components/home/slider/Slider";
 
 const Home = () => {
   return (
     <div>
-      <Slider/>
+      <Slider />
+      <ProductList title="featured" />
+      <ProductList title="trending" />
     </div>
-  )
-}
+  );
+};
 
 export default Home;
