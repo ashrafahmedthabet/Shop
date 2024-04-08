@@ -39,7 +39,7 @@ const ProductList = ({ title }: TProps): JSX.Element => {
     },
   ];
   return (
-    <div className="feat-products">
+    <div className="product-list">
       <div className="wrapper">
         <div className="header">
           <h2>{title} products</h2>
