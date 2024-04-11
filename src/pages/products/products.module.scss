@@ -1,0 +1,38 @@
+.products {
+  display: flex;
+  gap: 20px;
+  padding: 20px 20px 0;
+  .filters {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 50px;
+
+    .filter-item {
+      padding-bottom: 10px;
+      h2 {
+        font-weight: 400;
+        font-size: 1.25rem;
+        padding-bottom: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      .input-item{
+        padding-bottom: 10px;
+        label{
+            margin-left: 10px;
+        }
+      }
+    }
+  }
+  .product-list {
+    flex: 3;
+
+    .img-banner {
+      width: 100%;
+      object-fit: cover;
+      height: 350px;
+      padding-bottom: 40px;
+    }
+  }
+}
