@@ -49,7 +49,7 @@ const Footer = (): JSX.Element => {
             <p className="copyright">© Copyright 2024. All Rights Reserved</p>
           </div>
           <div className="right">
-            <img src="images/payment.png" />
+            <img src="/images/payment.png" />
           </div>
         </div>
       </div>

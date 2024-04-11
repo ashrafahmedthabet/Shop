@@ -11,7 +11,7 @@ const Navbar = ():JSX.Element => {
       <div className="wrapper">
         <div className="left">
           <div className="lang">
-            <img src='images/en.png' alt="en" />
+            <img src='/images/en.png' alt="en" />
             <KeyboardArrowDownIcon />
           </div>
           <div className="currency">
