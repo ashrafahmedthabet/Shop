@@ -6,4 +6,5 @@ export type TCardItem = {
   isNew?: boolean;
   oldPrice: number;
   price?: number;
+  desc?:string
 };
